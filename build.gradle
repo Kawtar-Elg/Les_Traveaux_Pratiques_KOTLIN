@@ -1,0 +1,13 @@
+ext {
+    kotlin_version = '1.8.0'
+    compileSdk = 34
+    minSdk = 29
+    targetSdk = 34
+}
+
+subprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
