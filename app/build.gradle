@@ -1,5 +1,5 @@
 plugins {
-    id 'com.android.Tp_17'
+    id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
 
@@ -8,7 +8,7 @@ android {
     compileSdk rootProject.ext.compileSdk
 
     defaultConfig {
-        applicationId "com.example.Tp_17"
+        applicationId "com.example.tp17"
         minSdk rootProject.ext.minSdk
         targetSdk rootProject.ext.targetSdk
         versionCode 1
@@ -27,7 +27,8 @@ android {
 
 dependencies {
     //implementation project(':data')
-   // implementation project(':domain')
+    //implementation project(':domain')
     implementation libs.androidx.core.ktx.v1120
     implementation libs.androidx.appcompat.v161
 }
+blaty mama jat
